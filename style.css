@@ -1,1 +1,18 @@
 @charset 'UTF-8';
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+}iframe{
+    margin: auto;
+    display: block;
+    border-image: url(imagens/frame-iphone.png);
+    height: 710px;
+    width: 418px;
+}
+img{
+    border-radius: 20px;
+}
