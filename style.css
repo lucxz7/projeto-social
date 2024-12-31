@@ -6,12 +6,34 @@
 body{
     background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
-}iframe{
-    margin: auto;
-    display: block;
+    width: 100vh;
+    height: 100vh;
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(imagens/frame-iphone.png);
+    width: 460px;
+    height: 710px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+iframe{
     border-image: url(imagens/frame-iphone.png);
     height: 710px;
-    width: 418px;
+    width: 400px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    
 }
 img{
     border-radius: 20px;
